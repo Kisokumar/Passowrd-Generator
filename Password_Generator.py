@@ -4,7 +4,7 @@ import time
 import sys
 import os
 
-alphabet = string.ascii_letters + string.digits + string.punctuation #Makes an 'alphabet' containing all the ascii numbers, letters and symbols.
+alphabet = string.ascii_letters + string.digits + string.punctuation 
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear') 
@@ -37,11 +37,11 @@ def passwordgenerator():
     print('\n\nWorking . . .')
     time.sleep(1)
     cls()
-    alphabet = string.ascii_letters + string.digits + string.punctuation #Makes an 'alphabet' containing all the ascii numbers, letters and symbols.
+    alphabet = string.ascii_letters + string.digits + string.punctuation 
     y=0
-    for x in range(many): #Amount of passwords
+    for x in range(many): 
         y+=1
-        password = "".join(secrets.choice(alphabet) for i in range(rand)) #Joins a random assorted string made up of the 'alphabet' made, for the amount of letters specified
+        password = "".join(secrets.choice(alphabet) for i in range(rand)) 
         temp = f'''Password # {y} - - -> {password}\n'''
         typer(temp)
         time.sleep(0.1)
