@@ -4,7 +4,7 @@ import time
 import sys
 import os
 
-alphabet = string.ascii_letters + string.digits + string.punctuation 
+alphabet = string.ascii_letters + string.digits + string.punctuation  
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear') 
