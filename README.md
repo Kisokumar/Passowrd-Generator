@@ -1,4 +1,4 @@
-# 🔑 Password Generator 🔑  
+# 🔑 Password Generator   
 ## Usage
     Python3 Password_Generator.py
 
